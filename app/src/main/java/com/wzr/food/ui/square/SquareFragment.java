@@ -29,7 +29,6 @@ import com.wzr.food.ui.fragment.RankFragment;
 import com.wzr.food.ui.fragment.RecomendFragment;
 
 public class SquareFragment extends BaseFragment {
-
     private SquareViewModel squareViewModel;
     private FragmentSquareBinding binding;
 
