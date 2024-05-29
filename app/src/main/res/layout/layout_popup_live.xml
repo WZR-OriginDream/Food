@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_sheet_dialog_bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_liveName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_fourround_gray"
+        android:gravity="center"
+        android:hint="输入直播间名字"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_startLive"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_fourround_light_red"
+        android:gravity="center"
+        android:text="创建直播"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

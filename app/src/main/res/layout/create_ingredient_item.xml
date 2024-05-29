@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingTop="5dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_fourround_gray">
+        <EditText
+            android:id="@+id/et_name"
+            android:background="@drawable/shape_fourround_gray"
+            android:hint="食材:如五花肉"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+        <EditText
+            android:id="@+id/et_amount"
+            android:background="@drawable/shape_fourround_gray"
+            android:hint="用量:如50克"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/close"/>
+    </LinearLayout>
+
+
+</LinearLayout>

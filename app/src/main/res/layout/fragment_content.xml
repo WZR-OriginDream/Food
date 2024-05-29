@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.ContentFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="介绍"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="嘿！食友，简要地和大家介绍下这个美味吧！"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="用料"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/ing_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="做法"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_measure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text="小技巧"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="嘘！别让其他人听到悄悄告诉你一些有用的小贴士哦\n\n1.破壁机的点动功能次数决定粉末细腻度，可以依自己口感选择。\n2.量多可以分多次打。\n3.糯米团加纯净水，防粘，也可以直接放豆粉。\n4.豆粉有的多的，密封干燥处保存。\n做菜好吃都有技巧，我的每道菜都有小妙招，大家可以直接查看我的菜谱！\n"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_lgray"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lav_book"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        tools:ignore="MissingConstraints" />
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:text="评论"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rv_comment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+</LinearLayout>
